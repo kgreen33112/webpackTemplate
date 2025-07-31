@@ -4,6 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm init -y",
+    "webpack-install": "npm install --save-dev webpack webpack-cli",
+    "html-install": "npm install --save-dev html-webpack-plugin",
+    "css-install": "npm install --save-dev style-loader css-loader",
+    "image-install": "npm install --save-dev html-loader",
+    "server-install": "npm install --save-dev webpack-dev-server",
     "build": "webpack", 
     "dev": "webpack serve"
   },
